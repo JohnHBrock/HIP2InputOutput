@@ -12,10 +12,9 @@ class Reader(object):
     '''
     
     @staticmethod
-    def getStars(filename):
+    def get_stars_generator(filename):
         '''Read Hipparcos new reduction .dat file and return a list of Star instances.'''
         with open(filename, "rb") as f:
-            stars = []
             row = f.read(277)
             while row != "":
                 hipparcos_id = int(row[0:6])
@@ -77,7 +76,9 @@ class Reader(object):
                             color_index_error,
                             VI_color_index,
                             upper_triangular_weight_matrix)
-                stars.append(star)
                 row = f.read(277)
-                
-            return stars
+                yield star
+
+		@staticmethod
+    def get_stars_list(filename):
+			return list(get_stars_generator(filename))

@@ -12,7 +12,7 @@ class Writer(object):
     '''
 
     @staticmethod
-    def writeCSV(stars, filename):
+    def write_csv(stars, filename):
         '''
         Write values from Star instances to a new CSV file
         '''        
