@@ -1,6 +1,6 @@
-HIP2InputOutput
+hipparchos2_input_output
 ===============
 
 A Python library with methods for:
--Reading Hipparcos new reduction data from the original .dat file and turning the data into a list of Star objects.
--Writing Hipparcos data to a CSV.
+* Reading Hipparcos new reduction data from the original .dat file and turning the data into a list of Star objects.
+* Writing Hipparcos data to a CSV.
