@@ -1,13 +1,8 @@
-'''
-Created on May 10, 2013
-
-@author: John Brock
-'''
-
 class Star(object):
-    '''
+
+    """
     Represents a single star in the Hipparcos new reduction data.
-    '''
+    """
 
     def __init__(self,
                  hipparcos_id,
@@ -64,5 +59,4 @@ class Star(object):
         self.color_index = color_index
         self.color_index_error = color_index_error
         self.VI_color_index = VI_color_index
-        self.upper_triangular_weight_matrix = upper_triangular_weight_matrix 
-        
+        self.upper_triangular_weight_matrix = upper_triangular_weight_matrix
