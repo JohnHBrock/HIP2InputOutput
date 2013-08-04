@@ -1,4 +1,4 @@
-hipparchos2_input_output
+hipparchos2_io
 ===============
 
 A Python library with methods for:
