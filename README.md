@@ -1,8 +1,8 @@
-hipparchos2_io
+hipparchos2-io
 ===============
 
 To install:
-pip install hipparchos2_io
+pip install hipparchos2-io
 
 To import:
 import hip2
