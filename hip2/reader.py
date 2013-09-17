@@ -70,5 +70,5 @@ def get_stars_generator(filename):
 
 
 def get_stars_list(filename):
-	"""Read Hipparcos new reduction .dat file and return a list of Star instances."""
+    """Read Hipparcos new reduction .dat file and return a list of Star instances."""
     return list(get_stars_generator(filename))
