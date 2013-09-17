@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='hipparchos2-io',
-    version='1.0.0',
+    version='1.0.1',
     author='John Brock',
     author_email='johnhbrock@gmail.com',
     packages=['hip2'],
